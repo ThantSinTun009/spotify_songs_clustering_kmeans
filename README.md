@@ -26,3 +26,6 @@ This project focuses on unsupervised learning to explore and group Spotify songs
     - Save model
     - Load model
     - Test with user's data
+ 
+# References
+- https://apxml.com/courses/getting-started-with-scikit-learn/chapter-6-building-pipelines/accessing-pipeline-steps 
