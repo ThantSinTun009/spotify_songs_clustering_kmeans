@@ -15,8 +15,8 @@ with open("kmeans_model.pkl", "rb") as f:
     loaded_model = pickle.load(f)   
 
 numerical_features = [
-    "danceability", "energy", "acousticness", "popularity", "duration_ms",
-    "liveness", "loudness", "speechiness", "tempo", "valence"
+    "danceability", "acousticness", "popularity", "duration_ms",
+     "energy", "liveness", "loudness", "speechiness", "tempo", "valence"
 ]
 categorical_features = ["mode", "key", "time_signature"]
 
@@ -159,4 +159,5 @@ if st.button("Predict Cluster"):
 
     predicted_values = kmeans.predict(X_new_pca)
     st.success(f"This song belongs to **Cluster {predicted_values[0]}**")
+
 
