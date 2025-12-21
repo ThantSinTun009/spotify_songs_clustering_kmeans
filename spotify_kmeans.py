@@ -42,7 +42,7 @@ st.sidebar.markdown("---")
 st.sidebar.header("Parameter Interface")
 x_feature = st.sidebar.selectbox("X-axis feature", numerical_features, index=0)
 y_feature = st.sidebar.selectbox("Y-axis feature", numerical_features, index=1)
-k = st.sidebar.slider("Number of clusters (k)", 2, 10, 5)
+k = st.sidebar.slider("Number of clusters (k)", 2, 10, 3)
 
 # ---------------------
 # Preprocess + PCA
@@ -159,5 +159,6 @@ if st.button("Predict Cluster"):
 
     predicted_values = kmeans.predict(X_new_pca)
     st.success(f"This song belongs to **Cluster {predicted_values[0]}**")
+
 
 
