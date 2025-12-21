@@ -13,7 +13,7 @@ This project focuses on unsupervised learning to explore and group Spotify songs
     - Duplicated values
     - Removing & clipping outliers
   
-- Feature Encoding & PCA
+- Feature Engineering
     - Encoding the categorical features
     - Principal Components Analysis: reducing dimenstions into 2D
 
