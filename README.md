@@ -30,7 +30,7 @@ This project focuses on unsupervised learning to explore and group Spotify songs
 ## Language
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=r,python,github,markdown&perline=7" />
+  <img src="https://skillicons.dev/icons?i=python,github,markdown&perline=7" />
 </p>
 
 
