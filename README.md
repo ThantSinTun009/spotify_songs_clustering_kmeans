@@ -27,10 +27,10 @@ This project focuses on unsupervised learning to explore and group Spotify songs
     - Load model
     - Test with user's data
 
-## Language
+## Languages, Tools & Frameworks
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,github,markdown&perline=7" />
+  <img src="https://skillicons.dev/icons?i=python, scikitlearn, vscode, github&perline=7" />
 </p>
 
 
